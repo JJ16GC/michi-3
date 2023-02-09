@@ -16,11 +16,9 @@ function currentTime() {
   let diferencia = fecha2.diff(fecha1, "days");
   let fecha = diferencia + " DIAS A TU LADO :3";
 
-  console.log(fecha2);
-
-  let time = hh + ":" + mm + ":" + ss;
-  let watch = document.querySelector("#watch");
-  watch.innerHTML = fecha;
+  //let time = hh + ":" + mm + ":" + ss;
+  //let watch = document.querySelector("#watch");
+  //watch.innerHTML = fecha;
 }
 
 setInterval(currentTime, 1000);
