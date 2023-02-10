@@ -34,6 +34,8 @@ function currentTime() {
   watch.innerHTML = fecha;
   watch2.innerHTML = reloj;
   watch3.innerHTML = ani;
+
+  
 }
 
 setInterval(currentTime, 1000);
