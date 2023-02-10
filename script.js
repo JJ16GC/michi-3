@@ -1,9 +1,9 @@
 function currentTime() {
+
   let date = new Date();
   let diae = date.getDate();
   let hh = date.getHours();
   let mm = date.getMinutes();
-  hh = moment(hh).format("h");
   let ss = date.getSeconds();
 
   hh = hh < 10 ? "0" + hh : hh;
@@ -15,7 +15,8 @@ function currentTime() {
   let fecha2 = moment(date);
 
   if (diae == diaespecial) {
-    ani = "Es hoy Feliz mes mi amor <br> Me encantas vamos por toda una vida juntitos :3";
+    ani =
+      "<button id='boton'><a href='mensaje.html'>Clickeame chiquita :3</a></button>";
   } else {
     ani = "Y contando... ";
   }
