@@ -9,30 +9,38 @@ body {
   display: grid;
   place-items: center;
   overflow: hidden;
-  background-image: url("src/195695.jpg");
+  background-image: url("src/0336db59569fa208d380455a8a9fea85.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   backdrop-filter: blur(5px);
+  background-position: 46%;
+  backdrop-filter: brightness(50%);
   background-color: black;
   color: white;
+  font-family: "Brokenlove", sans-serif;
+  font-size: larger;
 }
 
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url("src/195695.jpg");
-    background-position: 45%;
-    backdrop-filter: brightness(60%);
+    background-image: url("src/0336db59569fa208d380455a8a9fea85.jpg");
   }
+}
+
+#titulo {
+  font-size: 40px;
 }
 
 p {
   text-align: center;
-  margin: 25px 30px 0 30px;
+  margin: 0px 30px 30px 30px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #contenidos {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: space-between;
   margin: auto;
@@ -41,7 +49,6 @@ p {
 h1 {
   color: cyan;
   font-family: monospace;
-  margin: auto;
   text-align: center;
 }
 

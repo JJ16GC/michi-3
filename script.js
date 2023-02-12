@@ -21,12 +21,12 @@ function currentTime() {
 
   /* DIA ESPECIAL */
 
-  if (diae == diaespecial) {
+  if (12 == 12) {
     ani =
       "<button id='boton'><a href='mensaje.html'>Ver Carta 💌</a></button>";
-    fecha = "Holi Amor Felices " + diferenciames + " meses!!!<br> ";
+    fecha = "Felices " + diferenciames + " meses!!!<br> ";
     titulo = "Ves te lo dije apenas 4 meses de algo que no tiene fin"
-    reloj = "<a href='mensaje.html'>Ver Galeria 7u7</a>";
+    reloj = "<a href='galeria.html'>Ver Galeria 7u7</a>";
   } else {
     /* */
     ani = "Y contando... ";
