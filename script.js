@@ -11,6 +11,7 @@ function currentTime() {
 
   let fecha = "Errorxd";
   let reloj = "Errorxd";
+  titulo = "Error";
   let fecha1 = moment("2022-10-12");
   let diaespecial = fecha1.date();
   let fecha2 = moment(date);
@@ -20,25 +21,29 @@ function currentTime() {
 
   /* DIA ESPECIAL */
 
-  if (10 == 10) {
+  if (diae == diaespecial) {
     ani =
       "<button id='boton'><a href='mensaje.html'>Ver Carta 💌</a></button>";
     fecha = "Holi Amor Felices " + diferenciames + " meses!!!<br> ";
+    titulo = "Ves te lo dije apenas 4 meses de algo que no tiene fin"
     reloj = "<a href='mensaje.html'>Ver Galeria 7u7</a>";
   } else {
     /* */
     ani = "Y contando... ";
     fecha = "" + diferenciames + " MESES<br> " + diferencia + " DÍAS ";
     reloj = time;
+    titulo = "Te Amo Michi 7u7 ❤️"
   }
 
   let watch = document.querySelector("#watch");
   let watch2 = document.querySelector("#figura");
   let watch3 = document.querySelector("#mensaje");
+  let watch4 = document.querySelector("#titulo");
 
   watch.innerHTML = fecha;
   watch2.innerHTML = reloj;
   watch3.innerHTML = ani;
+  watch4.innerHTML = titulo
 }
 
 setInterval(currentTime, 1000);
