@@ -21,7 +21,7 @@ function currentTime() {
 
   /* DIA ESPECIAL */
 
-  if (12 == 12) {
+  if (diae == diaespecial) {
     ani =
       "<button id='boton'><a href='mensaje.html'>Ver Carta 💌</a></button>";
     fecha = "Felices " + diferenciames + " meses!!!<br> ";
@@ -32,7 +32,7 @@ function currentTime() {
     ani = "Y contando... ";
     fecha = "" + diferenciames + " MESES<br> " + diferencia + " DÍAS ";
     reloj = time;
-    titulo = "Te Amo Michi 7u7 ❤️"
+    titulo = "<a style='color:cyan' href='mensaje.html'>Te Amo Michi 7u7 ❤️</a>"
   }
 
   let watch = document.querySelector("#watch");
