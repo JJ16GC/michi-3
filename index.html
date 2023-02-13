@@ -10,21 +10,29 @@
   </head>
   <body>
     <h1 id="titulo">Te Amo Michi 7u7 ❤️</h1>
-    
-    <div id="watch"></div>
+    <div id="conjuntos">
+      <div id="watch"></div>
+      <div id="figura2"></div>
+    </div>
     <div class="corazon">&#x2665;</div>
     <h1 id="mensaje"></h2>
     <div id="conjuntos">
-      <div id="figura1"><a href="https://open.spotify.com/track/6tu2FHuKL9C8pwNrityweQ?si=3b0bd812f3494d3e"></a></div>
+      <div id="figura1"></div>
       <div id="figura"></div>
     </div>
     
     <script>
       const body = document.getElementById("figura1");
+      const body2 = document.getElementById("figura2");
+      body2.addEventListener("click",function(){
+        window.location.href = "galeria.html";
+      });
       body.addEventListener("click", function() {
         window.location.href = "https://open.spotify.com/track/6tu2FHuKL9C8pwNrityweQ?si=3c8d914b561644c4";
       });
     </script>
+
+
 
     <script src="script.js"></script>
     <script src="https://momentjs.com/downloads/moment.js"></script>

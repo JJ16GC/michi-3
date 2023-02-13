@@ -21,18 +21,18 @@ function currentTime() {
 
   /* DIA ESPECIAL */
 
-  if (diae == diaespecial) {
-    ani =
-      "<button id='boton'><a href='mensaje.html'>Ver Carta 💌</a></button>";
+  if (7 == diaespecial) {
+    ani = "<button id='boton'><a href='mensaje.html'>Ver Carta 💌</a></button>";
     fecha = "Felices " + diferenciames + " meses!!!<br> ";
-    titulo = "Ves te lo dije apenas 4 meses de algo que no tiene fin"
+    titulo = "Ves te lo dije apenas 4 meses de algo que no tiene fin";
     reloj = "<a href='galeria.html'>Ver Galeria 7u7</a>";
   } else {
     /* */
     ani = "Y contando... ";
     fecha = "" + diferenciames + " MESES<br> " + diferencia + " DÍAS ";
     reloj = time;
-    titulo = "<a style='color:cyan' href='mensaje.html'>Te Amo Michi 7u7 ❤️</a>"
+    titulo =
+      "<a style='color:cyan'>Te Amo Michi 7u7 ❤️</a>";
   }
 
   let watch = document.querySelector("#watch");
@@ -43,7 +43,7 @@ function currentTime() {
   watch.innerHTML = fecha;
   watch2.innerHTML = reloj;
   watch3.innerHTML = ani;
-  watch4.innerHTML = titulo
+  watch4.innerHTML = titulo;
 }
 
 setInterval(currentTime, 1000);

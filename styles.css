@@ -50,15 +50,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 170px;
-  height: 170px;
+  width: 150px;
+  height: 150px;
   border: 2px solid rgb(255, 0, 0);
   color: cyan;
   border-radius: 50%;
   font-family: monospace;
   font-size: 1.7rem;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.479);
+  background-color: rgba(0, 0, 0, 0.534);
 }
 
 #conjuntos {
@@ -66,6 +66,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-bottom: auto;
+  margin: auto;
 }
 
 #figura {
@@ -81,6 +82,23 @@ body {
   font-size: 1.7rem;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.534);
+}
+
+#figura2 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(255, 0, 0);
+  color: cyan;
+  border-radius: 50%;
+  font-family: monospace;
+  font-size: 1.7rem;
+  text-align: center;
+  margin: 0 0 0 30px;
+  background-color: rgba(0, 0, 0, 0.479);
+  background-image: url("src/boton.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 105px;
 }
 
 #figura1 {
