@@ -6,76 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="src/Chopper_icon-icons.com_76114.png" />
     <link rel="stylesheet" href="CSS/cumple.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <title>Feliz Cumpleaños</title>
   </head>
   <body>
-    <div id="wrap">
-      <div id="panel1">
-        <div class="cards">
-          <input
-            type="checkbox"
-            id="card-toggle-1"
-            class="card-toggle"
-            value="selected"
-          />
-          <label class="card" for="card-toggle-1">
-            <div class="front face">
-              <p id="cardfrontlangs">
-                Happy Birthday! !كل سنة و إنت طيّب 生日快乐! Gelukkige
-                Verjaardag! Hyvää syntymäpäivää! Joyeux Anniversaire! Alles Gute
-                zum Geburtstag! Χρόνια Πολλά! Hauʻoli lā hānau! !יום הולדת שמח
-                जन्मदिन मुबारक हो! Breithlá Sona Duit! Buon Compleanno! 생일
-                축하해! Felix Dies Natalis! Selamat Hari Jadi! Төрсөн өдрийн
-                баяр хүргъе! Parabéns! С днём рождения! ¡Feliz cumpleaños!
-              </p>
-            </div>
-            <div class="inner-left face"></div>
-            <div class="inner-right face">
-              <p id="cardinner">
-                Happy birthday! Congrats on making it 18 whole years, L'<span
-                  style="color: #369b70"
-                  >CHAI</span
-                >m!<br /><br />
-                Love,<br />
-                Jami
-              </p>
-            </div>
-          </label>
+    <div id="container">
+      <h1>Pide Un Deseo...<br />... Y apaga la vela</h1>
+      <div id="glow" class="glow"></div>
+      <div id="candle">
+        <div class="stripe"></div>
+        <div class="stripe"></div>
+        <div class="stripe"></div>
+        <div class="stripe"></div>
+        <div class="stripe"></div>
+        <div id="top">
+          <div class="smoke"></div>
+          <div class="smoke"></div>
+          <div class="smoke"></div>
+          <div id="knot"></div>
+          <div id="flame" class="burn"></div>
         </div>
-
-        <p class="bottoms" id="p1bottom">Read your card?</p>
-      </div>
-      <div id="panel2">
-        <div class="buttons" id="candle_button"><p>Blow!</p></div>
-
-        <div id="cake">
-          <div id="candles">
-            <p id="candle">18</p>
-
-            <div class="flames" id="flame1"></div>
-            <div class="wicks" id="wick1"></div>
-            <div class="flames" id="flame2"></div>
-            <div class="wicks" id="wick2"></div>
-          </div>
-        </div>
-
-        <p class="bottoms" id="p2bottom">Make a wish?</p>
-      </div>
-      <div id="panel3">
-        <div class="buttons" id="gift_button"><p>Open!</p></div>
-        <div id="gift">
-          <div id="ribbon"></div>
-        </div>
-
-        <div id="heart"></div>
-
-        <p class="bottoms" id="p3bottom">Open your gift?</p>
-      </div>
-
-      <div id="header">
-        <p>Happy Birthday, Talia! Did you remember to...</p>
       </div>
     </div>
-    <script src="JS/scriptcumple.js"></script>
+
+    <script src="JS/cumple.js"></script>
   </body>
 </html>
