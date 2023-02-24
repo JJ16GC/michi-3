@@ -12,7 +12,7 @@ body {
   place-items: center;
   overflow: hidden;
   background-color: black;
-  background-image: url("src/0336db59569fa208d380455a8a9fea85.jpg");
+  background-image: url("../src/0336db59569fa208d380455a8a9fea85.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -21,7 +21,7 @@ body {
 
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url("src/0336db59569fa208d380455a8a9fea85.jpg");
+    background-image: url("../src/0336db59569fa208d380455a8a9fea85.jpg");
     background-position: 48%;
   }
 }

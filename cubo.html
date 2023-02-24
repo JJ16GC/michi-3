@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Un cubito </title>
+  <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0"><link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- PWA: https://bsehovac.github.io/the-cube/ -->
+
+<div class="ui">
+
+  <div class="ui__background"></div>
+
+  <div class="ui__game"></div>
+
+  <div class="ui__texts">
+    <h1 class="text text--title">
+      <span>Un Cubito para</span>
+      <span>michi :3</span>
+    </h1>
+    <div class="text text--note">
+      Doble tab para iniciar
+    </div>
+    <div class="text text--timer">
+      0:00
+    </div>
+    <div class="text text--complete">
+      <span>Completo! 7u7</span>
+    </div>
+    <div class="text text--best-time">
+      <icon trophy></icon>
+      <span>Nuevo Record! 7u7</span>
+    </div>
+  </div>
+
+  <div class="ui__prefs">
+    <range name="size" title="Cubo Tamaño" list="2,3,4,5"></range>
+    <range name="flip" title="Tipo Flip" list="Rápido&nbsp;,Liso,Rebotar"></range>
+    <range name="scramble" title="Longitud de Movimientos" list="20,25,30"></range>
+    <range name="fov" title="Angulo de camara" list="Ortográfica,Perspectiva"></range>
+    <range name="theme" title="Esquema de colores" list="Cubo,Erno,Polvo,Camuflaje,Lluvia"></range>
+  </div>
+
+  <div class="ui__theme">
+    <range name="hue" title="Matiz" color></range>
+    <range name="saturation" title="Saturación" color></range>
+    <range name="lightness" title="Brillo" color></range>
+  </div>
+
+  <div class="ui__stats">
+    <div class="stats" name="cube-size">
+      <i>Cubo:</i><b>3x3x3</b>
+    </div>
+    <div class="stats" name="total-solves">
+      <i>Total resueltos:</i><b>-</b>
+    </div>
+    <div class="stats" name="best-time">
+      <i>Mejor Tiempo:</i><b>-</b>
+    </div>
+    <div class="stats" name="worst-time">
+      <i>Peor Tiempo:</i><b>-</b>
+    </div>
+    <div class="stats" name="average-5">
+      <i>Promedio de 5:</i><b>-</b>
+    </div>
+    <div class="stats" name="average-12">
+      <i>Promedio de 12:</i><b>-</b>
+    </div>
+    <div class="stats" name="average-25">
+      <i>Promedio de 25:</i><b>-</b>
+    </div>
+  </div>
+
+  <div class="ui__buttons">
+    <button class="btn btn--bl btn--stats">
+      <icon trophy></icon>
+    </button>
+    <button class="btn btn--br btn--prefs">
+      <icon settings></icon>
+    </button>
+    <button class="btn btn--bl btn--back">
+      <icon back></icon>
+    </button>
+    <button class="btn btn--br btn--theme">
+      <icon theme></icon>
+    </button>
+    <button class="btn btn--br btn--reset">
+      <icon reset></icon>
+    </button>
+  </div>
+
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/95/three.min.js'></script><script  src="JS/scriptcubo.js"></script>
+
+</body>
+</html>
