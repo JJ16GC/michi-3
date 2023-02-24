@@ -1,23 +1,21 @@
-$(function()
-{
-  var flame = $('#flame');
-  var txt = $('h1');
+$(function () {
+  var flame = $("#flame");
+  var txt = $("h1");
 
-  flame.on(
-  {
-    click: function()
-    {
-      flame.removeClass('burn').addClass('puff');
-      $('.smoke').each(function()
-      {
-        $(this).addClass('puff-bubble');
+  flame.on({
+    click: function () {
+      flame.removeClass("burn").addClass("puff");
+      $(".smoke").each(function () {
+        $(this).addClass("puff-bubble");
       });
-      $('#glow').remove();
+      $("#glow").remove();
       txt.html("Feliz <b>Cumpleaños</b> Michi...").delay(2750).fadeOut(300);
-      $('#candle').animate(
-      {
-        //'opacity': '.5'
-      }, 100);
-    }
-  })   
+      $("#candle").animate(
+        {
+          //'opacity': '.5'
+        },
+        100
+      );
+    },
+  });
 });
