@@ -35,7 +35,7 @@ function currentTime() {
     titulo = "<a style='color:cyan'>Te Amo Michi 7u7 ❤️</a>";
   }
 
-  if (24 == diae && 02 == mese ) {
+  if (09 == diae && 03 == mese ) {
     ani = "<button id='boton'><a href='cartacumple.html'>Ver Carta Cumpleaños💌</a></button>";
     fecha = "<a style='color:cyan;' href='cubo.html'>Regalo:3</a>";
     titulo = "Feliz Cumpleaños mi amoooor!!!";
