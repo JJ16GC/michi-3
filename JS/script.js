@@ -1,6 +1,7 @@
 function currentTime() {
   let date = new Date();
   let diae = date.getDate();
+  let mese = date.getMonth()+1;
   let hh = date.getHours();
   let mm = date.getMinutes();
   let ss = date.getSeconds();
@@ -21,7 +22,7 @@ function currentTime() {
 
   /* DIA ESPECIAL */
 
-  if (7 == diaespecial) {
+  if (diae == diaespecial) {
     ani = "<button id='boton'><a href='mensaje.html'>Ver Carta 💌</a></button>";
     fecha = "Felices " + diferenciames + " meses!!!<br> ";
     titulo = "Ves te lo dije apenas 4 meses de algo que no tiene fin";
@@ -31,8 +32,14 @@ function currentTime() {
     ani = "Y contando... ";
     fecha = "" + diferenciames + " MESES<br> " + diferencia + " DÍAS ";
     reloj = time;
-    titulo =
-      "<a style='color:cyan'>Te Amo Michi 7u7 ❤️</a>";
+    titulo = "<a style='color:cyan'>Te Amo Michi 7u7 ❤️</a>";
+  }
+
+  if (24 == diae && 02 == mese ) {
+    ani = "<button id='boton'><a href='cartacumple.html'>Ver Carta Cumpleaños💌</a></button>";
+    fecha = "<a style='color:cyan;' href='cubo.html'>Regalo:3</a>";
+    titulo = "Feliz Cumpleaños mi amoooor!!!";
+    reloj = "<a href='galeria.html'>Ver Galeria 7u7</a>";
   }
 
   let watch = document.querySelector("#watch");

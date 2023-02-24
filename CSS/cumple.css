@@ -1,6 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento");
 body {
-  background-color: #1e1934;
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+#mensaje_1{
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  letter-spacing: 0;
+  margin: 50px 0 0 0;
+  width: auto;
+  font-size: 23px;
+  color: black;
+}
+
+#mensaje {
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  letter-spacing: 0;
+  margin: 15%;
+  margin-top: 10%;
+  width: auto;
+  font-size: 13px;
+  color: black;
 }
 
 h1 {
@@ -18,6 +41,12 @@ h1 {
   color: white;
   text-shadow: 0 0 20px black;
   opacity: .8;
+}
+
+
+
+a {
+  color: white;
 }
 
 #glow {
@@ -206,10 +235,10 @@ h1 {
   left: -.25em;
   width: 2em;
   height: .25em;
-  background-color: #ff4b6f;
+  background-color: #6e1d2d;
   transform: rotate(25deg);
   border-radius: 100%;
-  box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 0 1px rgba(122, 26, 26, 0.555);
 }
 
 .stripe:nth-child(1) {
