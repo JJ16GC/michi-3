@@ -13,7 +13,7 @@ $(function()
         $(this).addClass('puff-bubble');
       });
       $('#glow').remove();
-      txt.html("Feliz <b>Cumpleaños</b> Tupida...").delay(2750).fadeOut(300);
+      txt.html("Feliz <b>Cumpleaños</b> Michi...").delay(2750).fadeOut(300);
       $('#candle').animate(
       {
         //'opacity': '.5'
