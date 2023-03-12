@@ -25,7 +25,7 @@ function currentTime() {
   if (diae == diaespecial) {
     ani = "<button id='boton'><a href='mensaje.html'>Ver Carta 💌</a></button>";
     fecha = "Felices " + diferenciames + " meses!!!<br> ";
-    titulo = "Ves te lo dije apenas 4 meses de algo que no tiene fin";
+    titulo = "Amoooooor ya 5 meses juntitos 7u7";
     reloj = "<a href='galeria.html'>Ver Galeria 7u7</a>";
   } else {
     /* */
