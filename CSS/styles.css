@@ -118,6 +118,11 @@ body {
   background-size: 135px;
 }
 
+a:link {
+  text-decoration: none;
+  color: cyan;
+}
+
 h1 {
   color: cyan;
   font-family: monospace;

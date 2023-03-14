@@ -1,0 +1,75 @@
+/*
+Estilos de  hoja que no sirven pa una mrda
+*/
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background-image: url("../src/xd.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  background-position: 35%;
+  backdrop-filter: brightness(40%);
+  background-color: black;
+  color: white;
+  font-family: "Brokenlove", sans-serif;
+  font-size: larger;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url("../src/xd.jpg");
+  }
+}
+
+#titulo {
+  font-size: 35px;
+  margin: 40px 0px 0px 0px;
+}
+
+p {
+  text-align: center;
+  margin: 0px 40px 40px 40px;
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#contenidos {
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+}
+
+h1 {
+  color: cyan;
+  font-family: monospace;
+  text-align: center;
+}
+
+#boton {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #3d348b;
+  box-shadow: 0 5px #2c0b8e;
+}
+
+a {
+  color: white;
+}
