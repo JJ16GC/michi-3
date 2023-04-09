@@ -9,11 +9,11 @@ body {
   display: grid;
   place-items: center;
   overflow: hidden;
-  background-image: url("../src/0336db59569fa208d380455a8a9fea85.jpg");
+  background-image: url("../src/descarga.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(2px);
   background-position: 46%;
   backdrop-filter: brightness(50%);
   background-color: black;
@@ -24,12 +24,16 @@ body {
 
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url("../src/0336db59569fa208d380455a8a9fea85.jpg");
+    background-image: url("../src/descarga.jpg");
+    backdrop-filter: blur(3px);
+    background-position: 55%;
+    
   }
 }
 
 #titulo {
   font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.623);
 }
 
 p {
@@ -37,6 +41,7 @@ p {
   margin: 0px 40px 40px 40px;
   font-size: 12px;
   font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(0, 0, 0, 0.623);
 }
 
 #contenidos {
