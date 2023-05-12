@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
+body {
+  background-color: black;
+}
+
+#container {
+  
+  background-image: url("https://i.pinimg.com/564x/a5/6e/27/a56e271a992ed23ade9808c9b63c4ed3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  filter: brightness(50%);
+  background-size: 100%;
+}
+
+#mensaje_1 {
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  letter-spacing: 0;
+  margin: 50px 0 0 0;
+  width: auto;
+  font-size: 23px;
+  color: white;
+}
+
+#mensaje {
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  letter-spacing: 0;
+  margin: 15%;
+  margin-top: 10%;
+  width: auto;
+  font-size: 13px;
+  color: white;
+}
+
+h1 {
+  position: fixed;
+  margin: 0 auto;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  width: 12em;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 100;
+  font-family: "Sacramento";
+  letter-spacing: 0.1em;
+  color: white;
+  text-shadow: 0 0 20px black;
+  opacity: 0.8;
+}
+
+a {
+  color: white;
+}
