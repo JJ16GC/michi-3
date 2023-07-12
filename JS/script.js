@@ -22,10 +22,10 @@ function currentTime() {
 
   /* DIA ESPECIAL */
 
-  if (diae == diaespecial) {
-    ani = "<button id='boton'><a href='8m.html'>Ver carta</a></button>";
-    fecha = "Felices " + diferenciames + " meses!!!<br> ";
-    titulo = "Otro mesesito mas a tu lado :3";
+  if (9 == 9) {
+    ani = "<button id='boton'><a href='msj/9m.html'>9 MESES :3</a></button>";
+    fecha = "Felices " + diferenciames + " meses :'3<br> ";
+    titulo = "Ya 9 meses aguantando a este pendejo :3";
     reloj = "<a href='galeria.html'>Ver Galeria 7u7</a>";
   } else {
     /* */
@@ -35,7 +35,7 @@ function currentTime() {
     titulo = "<a style='color:cyan'>Te Amo Michi 7u7 ❤️</a>";
   }
 
-  if (09 == diae && 03 == mese ) {
+  if (9 == diae && 3 == mese ) {
     ani = "<button id='boton'><a href='cartacumple.html'>Ver Carta Cumpleaños💌</a></button>";
     fecha = "<a style='color:cyan;' href='cubo.html'>Regalo:3</a>";
     titulo = "Feliz Cumpleaños mi amoooor!!!";
