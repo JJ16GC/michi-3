@@ -26,8 +26,8 @@ body {
   body {
     background-image: url("../src/law.jpg");
     backdrop-filter: blur(1px);
-    background-position: 55%;
-    
+    background-position: 35%;
+    background-size: 100%;
   }
 }
 
