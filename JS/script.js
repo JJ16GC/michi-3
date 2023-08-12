@@ -23,9 +23,9 @@ function currentTime() {
   /* DIA ESPECIAL */
 
   if (diae == diaespecial) {
-    ani = "<button id='boton'><a href='msj/9m.html'>9 MESES :3</a></button>";
+    ani = "<button id='boton'><a href='#'>No disponible</a></button>";
     fecha = "Felices " + diferenciames + " meses :'3<br> ";
-    titulo = "Ya 9 meses aguantando a este pendejo :3";
+    titulo = "10 meses juntitos :3";
     reloj = "<a href='galeria.html'>Ver Galeria 7u7</a>";
   } else {
     /* */
