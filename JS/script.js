@@ -25,14 +25,14 @@ function currentTime() {
   if (diae == diaespecial) {
     ani = "<button id='boton'><a href='#'>No disponible</a></button>";
     fecha = "Felices " + diferenciames + " meses :'3<br> ";
-    titulo = "10 meses juntitos :3";
+    titulo = "11 meses juntitos :3";
     reloj = "<a href='galeria.html'>Ver Galeria 7u7</a>";
   } else {
     /* */
     ani = "Y contando... ";
     fecha = "" + diferenciames + " MESES<br> " + diferencia + " DÍAS ";
     reloj = time;
-    titulo = "<a style='color:cyan'>Te Amo Michi 7u7 ❤️</a>";
+    titulo = "<a style='color:cyan'>Te Amo Tontaaaa 7u7 ❤️</a>";
   }
 
   if (9 == diae && 3 == mese ) {
